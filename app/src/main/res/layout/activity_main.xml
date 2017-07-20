@@ -65,37 +65,37 @@
         android:layout_marginLeft="10dp"
         android:text="The Lego Movie"/>
         
-        <TextView
-            style="@style/questions"
-            android:text="2. Mathematics is a song by which artist?"/>
+        <!--<TextView-->
+            <!--style="@style/questions"-->
+            <!--android:text="2. Mathematics is a song by which artist?"/>-->
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            android:orientation = "vertical">
+        <!--<RadioGroup-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--android:orientation = "vertical">-->
 
-        <RadioButton
-            android:id="@+id/q2_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="Mos Def"/>
+        <!--<RadioButton-->
+            <!--android:id="@+id/q2_1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:text="Mos Def"/>-->
 
-            <RadioButton
-                android:id="@+id/q2_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Ice Cube"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/q2_2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Ice Cube"/>-->
 
-            <RadioButton
-                android:id="@+id/q2_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Rakim"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/q2_3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Rakim"/>-->
 
-        </RadioGroup>
+        <!--</RadioGroup>-->
 
         <TextView
             style="@style/questions"
