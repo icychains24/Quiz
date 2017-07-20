@@ -37,14 +37,14 @@ public class MainActivity extends AppCompatActivity {
             score++;
 
         //question 2
-//        RadioButton q2_1 = (RadioButton) findViewById(R.id.q2_1);
-//        boolean mosDefChecked = q2_1.isChecked();
-//        RadioButton q2_2 = (RadioButton) findViewById(R.id.q2_2);
-//        boolean iceCubeChecked = q2_2.isChecked();
-//        RadioButton q2_3 = (RadioButton) findViewById(R.id.q2_3);
-//        boolean rakimChecked = q2_3.isChecked();
-//        if(mosDefChecked && !iceCubeChecked && !rakimChecked)
-//            score++;
+        RadioButton q2_1 = (RadioButton) findViewById(R.id.q2_1);
+        boolean mosDefChecked = q2_1.isChecked();
+        RadioButton q2_2 = (RadioButton) findViewById(R.id.q2_2);
+        boolean iceCubeChecked = q2_2.isChecked();
+        RadioButton q2_3 = (RadioButton) findViewById(R.id.q2_3);
+        boolean rakimChecked = q2_3.isChecked();
+        if(mosDefChecked && !iceCubeChecked && !rakimChecked)
+            score++;
 
         //question 3
         CheckBox q3_1 = (CheckBox) findViewById(R.id.q3_1);
