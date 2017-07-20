@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        style="@style/Headings"
+        android:layout_width="match_parent"
+        android:gravity = "center_horizontal"
+        android:text="Greetings!\n\nPlease answer the five questions to the best of your ability. Your performance score will be displayed at the end."
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        style="@style/Headings"
+
+        android:text="Questions"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/questions"
+        android:text="1. Which of these are Pixar movies?" />
+
+    <CheckBox
+    android:id="@+id/q1_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:text="Wall-E"/>
+
+    <CheckBox
+        android:id="@+id/q1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="A Bug's Life"/>
+
+    <CheckBox
+        android:id="@+id/q1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="The Red Turtle"/>
+
+    <CheckBox
+        android:id="@+id/q1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Monsters, Inc."/>
+    <CheckBox
+        android:id="@+id/q1_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="The Lego Movie"/>
+        
+        <TextView
+            style="@style/questions"
+            android:text="2. Mathematics is a song by which artist?"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            android:orientation = "vertical">
+
+        <RadioButton
+            android:id="@+id/q2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Mos Def"/>
+
+            <RadioButton
+                android:id="@+id/q2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Ice Cube"/>
+
+            <RadioButton
+                android:id="@+id/q2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Rakim"/>
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="3. Which of the following is/are not album(s) from the 90s?"/>
+
+        <CheckBox
+            android:id="@+id/q3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Illmatic"/>
+        <CheckBox
+            android:id="@+id/q3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Thriller"/>
+        <CheckBox
+            android:id="@+id/q3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="OK Computer"/>
+        <CheckBox
+            android:id="@+id/q3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Is This It"/>
+
+
+        <TextView
+            style="@style/questions"
+            android:text="4. Which American president passed the Patriot Act?"/>
+
+        <EditText
+            android:id="@+id/q4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Full name (eg. Jimmy Carter)"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            style="@style/questions"
+            android:text="5. Which of these major companies does not have an Indian CEO?" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            android:orientation = "vertical">
+
+            <RadioButton
+                android:id="@+id/q5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="PepsiCo"/>
+
+            <RadioButton
+                android:id="@+id/q5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Microsoft"/>
+
+            <RadioButton
+                android:id="@+id/q5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Google"/>
+
+            <RadioButton
+                android:id="@+id/q5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Amazon"
+                android:layout_marginBottom="5dp"/>
+
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="Submit"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            android:onClick="submit"
+            android:textColor="#fff"
+            android:background="#E91E63"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your score will be displayed here (/5)"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
